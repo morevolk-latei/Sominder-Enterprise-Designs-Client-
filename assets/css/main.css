@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* Header css */
+header {
+  height: 80px;
+  width: 100%;
+  padding: 0 120px;
+  background: #FFFFFF;
+  display: flex;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.06);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  /* outline: 1px solid; */
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+nav ul li {
+  /* outline: 1px solid red; */
+}
+nav ul li:not(:last-child) {
+  margin-right: 32px;
+}
+
+nav ul li a {
+  color: #18191F;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+/* Header css ends */
