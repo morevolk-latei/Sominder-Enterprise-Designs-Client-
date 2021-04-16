@@ -444,8 +444,9 @@ p.quote-author {
 
 /* section8 footer starts */
 .footer-section {
-  margin-top: 100px;
+  margin-top: -1px;
   padding: 96px 260px;
+  background: #272727;
 }
 
 .footer-logo {
@@ -642,3 +643,121 @@ p.quote-author {
 }
 
 /* portfolio section2 ends */
+/* teams section starts */
+.right-box #sec3-Img {
+  width: 498px;
+  height: 538px;
+  background: url(../../images/teams/sec3.png) center top no-repeat;
+  filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.06));
+}
+
+.teams-section {
+  background: url(../../images/teams/wave-bg.png) center bottom no-repeat;
+  width: 100%;
+  min-height: 700px;
+  padding-top: 250px;
+  padding-bottom: 150px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-size: cover;
+}
+
+.team-card {
+  width: 400px;
+  height: 400px;
+  min-width: 400px;
+  max-width: 400px;
+  background: white;
+  border-radius: 12px;
+  margin-bottom: 100px;
+  padding: 50px 50px 30px;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.team-card:nth-last-of-type(1), .team-card:nth-last-of-type(2) {
+  margin-bottom: initial;
+}
+
+p.member-info {
+  font-family: Unna, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+  color: #343238;
+  z-index: 1;
+  position: relative;
+}
+
+.team-card .double-quote {
+  position: absolute;
+  top: 30px;
+  left: 26px;
+}
+
+.team-card .left-box>div {
+  margin: initial;
+}
+.bottom-sec {
+  justify-content: flex-end;
+}
+
+img.member-img {
+  width: 91px;
+  height: 91px;
+}
+
+.team-card .right-box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.team-card .left-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  flex: 2;
+  margin-right: 11px;
+}
+
+.team-card .left-box>div {
+  margin: initial;
+}
+
+p.member-name {
+  font-family: Unna;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+/* identical to box height, or 29px */
+  text-align: right;
+  color: #FFDC73;
+}
+
+p.member-role {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+/* or 145% */
+  text-align: right;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #343238;
+  margin-bottom: 11px;
+}
+
+.team-card .line-seperator {
+  width: 58px;
+  height: 0px;
+  border: 3px solid #FFDC73;
+}
+
+/* teams section ends */
