@@ -604,7 +604,8 @@ p.quote-author {
 
 .footer-section .fsec1 {
   width: 345px;
-  margin-right: 32px;
+  margin-right: 92px;
+  margin-left:-100px;
 }
 
 .footer-section p.company-fullname {
@@ -652,3 +653,114 @@ p.quote-author {
 }
 
 /* section8 footer ends */
+
+
+
+
+/* portfolio section1 starts */
+.right-box #portfolioJumbotron-Img {
+  width: 498px;
+  height: 538px;
+  background: url(../../images/portfolio-jumbotron-img.png) center top no-repeat;
+  filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.06));
+}
+
+.portfolio .jumbotron-container {
+  height: 480px;
+}
+
+.portfolio .count-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.count-section p.count-title {
+  font-family: Unna;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 120%;
+  /* or 43px */
+  color: #39363D;
+}
+
+.count-section p.count-subtitle {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+  font-feature-settings: 'liga'off;
+  color: #39363D;
+  margin-top: 16px;
+}
+
+.count-section .right-box {
+  justify-content: space-around;
+}
+
+.count-sec {
+  text-align: center;
+}
+
+.count-section .count-sec img {
+  margin-bottom: 8px;
+}
+
+.count-section .count-sec p.count {
+  font-family: Unna;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  /* or 133% */
+  text-align: center;
+  font-feature-settings: 'liga'off;
+  color: #39363D;
+}
+
+.count-section .count-sec p.count-type {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+  text-align: center;
+  font-feature-settings: 'liga'off;
+  color: #39363D;
+  margin-top: 4px;
+}
+
+/* portfolio section1 ends */
+
+/* portfolio section2 starts */
+.portfolio-items {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolio-items .pitem {
+  min-width: 280px;
+  /* flex: 1; */
+  max-width: 280px;
+  width: 280px;
+  margin-bottom: 72px;
+}
+
+.portfolio-items p.company-shortdesc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  display: flex;
+  align-items: center;
+  color: #39363D;
+  opacity: 0.7;
+  margin-top: 16px;
+}
