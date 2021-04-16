@@ -27,142 +27,6 @@ nav ul {
 nav ul li {
   /* outline: 1px solid red; */
 }
-nav ul li:not(:last-child) {
-  margin-right: 32px;
-}
-
-nav ul li a {
-  color: #18191F;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16px;
-}
-
-/* Header css ends */
-
-
-/* Terms & Conditions start */
-
-.tcheader{
-  text-align: left;
-  margin-left: 122px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 44px;
-  color: #39363D;
-  border-radius: nullpx;
-
-}
-
-.tcboldtext{
-  text-align: left;
-  margin-left: 122px;
-  margin-top: 25px;
-  font-weight: bold;
-  color: #39363D;
-  line-height: 16px;
-  font-size: 20px;
-  margin-bottom: 20px;
-  font-family: 'Roboto', sans-serif;
-
-}
-.tctext{
-  text-align: left;
-  margin-left: 125px;
-  margin-right: 120px;
-  color: #39363D;
-  line-height: 22px;
-  font-size: 16px;
-  font-family: 'Roboto', sans-serif;
-
-}
-
-ul.pplist{
-  text-align: left;
-  margin-left: 105px;
-  margin-right: 120px;  
-  color: #39363D;
-  line-height: 22px;
-  font-size: 16px;
-  font-family: 'Roboto', sans-serif;
-  
-}
-.imboldtext{
-  text-align: left;
-  margin-left: 125px;
-  margin-top: 25px;
-  font-weight: bold;
-  color: #39363D;
-  line-height: 16px;
-  font-size: 20px;
-  margin-bottom: 20px;
-  font-family: 'Roboto', sans-serif;
-
-}
-.cheader{
-  text-align: left;
-  margin-left: 122px;
-  margin-top: 210px;
-  margin-bottom: 10px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 46px;
-  color: #39363D;
-  border-radius: nullpx;
-  width: 495px;
-
-}
-.c-column{
-  float: left;
-  width: 50%;
-  
-}
-.c-row::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-.ctext{
-  text-align: left;
-  margin-left: 125px;
-  margin-right: 120px;
-  color: #39363D;
-  line-height: 22px;
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-
-}
-* {
-  margin: 0;
-  border: 0;
-  box-sizing: border-box;
-}
-
-/* Header css */
-header {
-  height: 80px;
-  width: 100%;
-  padding: 0 120px;
-  background: #FFFFFF;
-  display: flex;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.06);
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  /* outline: 1px solid; */
-  /* justify-content: space-around; */
-  align-items: center;
-}
-
-nav ul li {
-  /* outline: 1px solid red; */
-}
 
 nav ul li:not(:last-child) {
   margin-right: 32px;
@@ -615,8 +479,7 @@ p.quote-author {
 
 .footer-section .fsec1 {
   width: 345px;
-  margin-right: 92px;
-  margin-left:-100px;
+  margin-right: 32px;
 }
 
 .footer-section p.company-fullname {
@@ -664,3 +527,118 @@ p.quote-author {
 }
 
 /* section8 footer ends */
+
+
+
+
+
+
+/* portfolio section1 starts */
+.right-box #portfolioJumbotron-Img {
+  width: 498px;
+  height: 538px;
+  background: url(../../images/portfolio-jumbotron-img.png) center top no-repeat;
+  filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.06));
+}
+
+.portfolio .jumbotron-container {
+  height: 480px;
+}
+
+.portfolio .count-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.count-section p.count-title {
+  font-family: Unna;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 120%;
+  /* or 43px */
+  color: #39363D;
+}
+
+.count-section p.count-subtitle {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+  font-feature-settings: 'liga'off;
+  color: #39363D;
+  margin-top: 16px;
+}
+
+.count-section .right-box {
+  justify-content: space-around;
+}
+
+.count-sec {
+  text-align: center;
+}
+
+.count-section .count-sec img {
+  margin-bottom: 8px;
+}
+
+.count-section .count-sec p.count {
+  font-family: Unna;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  /* or 133% */
+  text-align: center;
+  font-feature-settings: 'liga'off;
+  color: #39363D;
+}
+
+.count-section .count-sec p.count-type {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+  text-align: center;
+  font-feature-settings: 'liga'off;
+  color: #39363D;
+  margin-top: 4px;
+}
+
+/* portfolio section1 ends */
+
+/* portfolio section2 starts */
+.portfolio-items {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolio-items .pitem {
+  min-width: 280px;
+  /* flex: 1; */
+  max-width: 280px;
+  width: 280px;
+  margin-bottom: 72px;
+}
+
+.portfolio-items p.company-shortdesc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  display: flex;
+  align-items: center;
+  color: #39363D;
+  opacity: 0.7;
+  margin-top: 16px;
+}
+
+/* portfolio section2 ends */
