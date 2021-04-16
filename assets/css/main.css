@@ -108,10 +108,21 @@ ul.pplist{
   margin-top: 210px;
   margin-bottom: 10px;
   font-family: 'Roboto', sans-serif;
-  font-size: 56px;
+  font-size: 46px;
   color: #39363D;
   border-radius: nullpx;
+  width: 495px;
 
+}
+.c-column{
+  float: left;
+  width: 50%;
+  
+}
+.c-row::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 .ctext{
   text-align: left;
@@ -119,7 +130,7 @@ ul.pplist{
   margin-right: 120px;
   color: #39363D;
   line-height: 22px;
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'Roboto', sans-serif;
 
 }
@@ -604,7 +615,8 @@ p.quote-author {
 
 .footer-section .fsec1 {
   width: 345px;
-  margin-right: 32px;
+  margin-right: 92px;
+  margin-left:-100px;
 }
 
 .footer-section p.company-fullname {
