@@ -27,6 +27,7 @@ nav ul {
 nav ul li {
   /* outline: 1px solid red; */
 }
+
 nav ul li:not(:last-child) {
   margin-right: 32px;
 }
@@ -41,3 +42,488 @@ nav ul li a {
 }
 
 /* Header css ends */
+
+
+
+.jumbotron-container {
+  padding: 85px 120px 0;
+  height: 623px;
+  display: flex;
+  /* outline: 1px solid red; */
+}
+
+.flexbox {
+  display: flex;
+}
+
+.hcenter {
+  justify-content: center;
+}
+
+.vcenter {
+  align-items: center;
+}
+
+.theme-padding {
+  padding: 0 120px;
+}
+
+.theme-bg {
+  background-color: #39363D;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.tcenter {
+  text-align: center;
+}
+
+.left-box {
+  flex: 1;
+  /* outline: 1px solid yellow; */
+}
+
+.left-box>div {
+  margin-top: 80px;
+}
+
+.left-box .page-heading {
+  font-family: Unna;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 120%;
+  /* or 67px */
+  color: #39363D;
+  width: 574px;
+}
+
+.left-box .page-subheading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  color: #39363D;
+  margin-top: 11px;
+}
+
+.left-box button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  background: #39363D;
+  border-radius: 32px;
+  color: #fff;
+  margin-top: 37px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.left-box button img {
+  margin-left: 14px;
+}
+
+.right-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  /* outline: 1px solid orange; */
+}
+
+.right-box #v111_41-Img {
+  /* position: absolute; */
+  width: 498px;
+  height: 538px;
+  /* left: 804px; */
+  /* top: 165px; */
+  background: url('../../images/v111_41.png') 29px -90px no-repeat;
+  background-size: cover;
+  filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.06));
+}
+
+
+/* second section */
+
+.container2 {
+  /* outline: 1px solid blue; */
+  height: 807px;
+  margin-top: -138.5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+}
+
+.wave {
+  /* position: absolute; */
+  width: 100%;
+}
+
+.wave-top {
+  /* top: 0; */
+  height: 254px;
+  background: url('../../images/wave\ \(1\).png') center bottom no-repeat;
+  background-size: cover;
+}
+
+.wave-bottom {
+  /* bottom: 0 */
+  height: 195px;
+  background: url('../../images/wave\ \(2\).png') center top no-repeat;
+}
+
+.content-section {
+  background-color: #39363D;
+  height: 350px;
+  position: relative;
+  width: 100%;
+  /* top: 200px; */
+  /* outline: 1px solid white; */
+}
+
+.p1 {
+  font-family: Unna;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120%;
+  /* or 43px */
+  color: #FFDC73;
+
+}
+
+.p2,
+.p3 {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+  font-feature-settings: 'liga'off;
+  color: #FFFFFF;
+  width: 450px;
+}
+
+.p2 {
+  margin-bottom: 25px;
+  margin-top: 16px;
+}
+
+.section-right-img {
+  position: relative;
+  width: 400px;
+  height: auto;
+}
+
+/* second section ends */
+
+/* section3 starts */
+.container3 {
+  margin-top: 80px;
+}
+
+.service-section-title {
+  font-family: Unna;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120%;
+  /* or 43px */
+  color: #39363D;
+}
+
+.service-subtitle {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+  font-feature-settings: 'liga'off;
+  color: #39363D;
+}
+
+.prep-img {
+  background: url('../../images/v111_169.png');
+}
+
+.session-img {
+  background: url('../../images/v111_157.png');
+}
+
+.fund-img {
+  background: url('../../images/v111_181.png');
+}
+
+.service-container {
+  width: 939px;
+  margin: 72px auto;
+}
+
+.service-img {
+  min-width: 314px;
+  max-width: 314px;
+  height: 283px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center center;
+  margin-right: 75px;
+}
+
+.service {
+  display: flex;
+  margin-bottom: 72px;
+}
+
+.service-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+p.service-title {
+  font-family: Unna;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 120%;
+  /* or 43px */
+  color: #39363D;
+}
+
+p.service-desc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+  color: #39363D;
+  opacity: 0.7;
+  margin: 16px 0;
+}
+
+.service button {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  background: #444444;
+}
+
+/* section3 ends here */
+
+/* section4 starts */
+.container4 {
+  height: 788px;
+}
+
+.container4 .right-box {
+  position: relative;
+}
+
+.container4 .left-box {
+  padding-top: 40px;
+}
+
+.testimonial-box {
+  background-color: #39363D;
+  height: 340px;
+  position: relative;
+  width: 100%;
+}
+
+.testimonial-box .p2 {
+  margin-top: 1px;
+  margin-bottom: 23px;
+}
+
+img.double-quotes {
+  position: absolute;
+  top: -23px;
+  left: 72px;
+}
+
+/* section4 ends */
+
+/* section5 starts */
+.quote-section {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+img.quote-author-img {
+  width: 547px;
+  height: 369px;
+  border-radius: 12px;
+  margin-right: 68px;
+}
+
+p.quote-text,
+p.quote-author {
+  font-family: Unna;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 120%;
+  /* or 43px */
+  /* Graphite */
+  color: #3F4B52;
+}
+
+p.quote-author {
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 8px;
+}
+
+/* section5 ends */
+
+/* section6 starts */
+.subscribe-section {
+  height: 265px;
+}
+
+.subscribe-section .left-box p {
+  font-family: Unna;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 120%;
+  /* or 43px */
+  color: #FFFFFF;
+}
+
+.subscribe-section .input-group {
+  width: 437px;
+  /* justify-content: stretch; */
+  height: 48px;
+}
+
+.subscribe-section .input-group input[type="text"] {
+  width: 342px;
+  background: #FFFFFF;
+  border-radius: 5px 0px 0px 5px;
+  padding: 14px 16px;
+  color: #474A57;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  font-feature-settings: 'liga'off;
+}
+
+.subscribe-section .input-group input[type="submit"] {
+  background: #FFDC73;
+  border-radius: 0px 5px 5px 0px;
+  padding: 14px 24px;
+  width: 95px;
+  color: #39363D;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  font-feature-settings: 'liga'off;
+}
+
+/* section6 ends */
+
+
+/* section8 footer starts */
+.footer-section {
+  margin-top: 100px;
+  padding: 96px 260px;
+}
+
+.footer-logo {
+  margin-bottom: 37px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  width: 238px;
+  height: 38px;
+}
+
+.footer-logo>img {
+  width: 100%;
+  height: auto;
+}
+
+.footer-section p.aboutus-desc {
+  margin: 32px 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  /* or 160% */
+  /* Text / Gray 200 */
+  color: #EEEFF4;
+  font-family: 'PT Serif', serif;
+}
+
+.footer-section .fsec1 {
+  width: 345px;
+  margin-right: 32px;
+}
+
+.footer-section p.company-fullname {
+  font-family: Manrope, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  font-feature-settings: 'liga'off;
+  /* Text / Gray 300 */
+  color: #D9DBE1;
+}
+
+.fsec {
+  height: 100%;
+  /* outline: 1px solid red; */
+  width: 160px;
+}
+
+.fsec p.sec-title {
+  font-family: Unna;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  font-feature-settings: 'liga'off;
+  color: #FFDC73;
+  margin-bottom: 32px;
+}
+
+.fsec p.sec-item {
+  margin: 12px 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  font-feature-settings: 'liga'off;
+
+  /* Text / Gray 200 */
+  color: #EEEFF4;
+}
+
+/* section8 footer ends */
