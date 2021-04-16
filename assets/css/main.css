@@ -105,7 +105,7 @@ ul.pplist{
 .cheader{
   text-align: left;
   margin-left: 122px;
-  margin-top: 210px;
+  margin-top: 180px;
   margin-bottom: 10px;
   font-family: 'Roboto', sans-serif;
   font-size: 56px;
@@ -123,6 +123,55 @@ ul.pplist{
   font-family: 'Roboto', sans-serif;
 
 }
+.c-column{
+  float: left;
+  width: 50%;
+  margin-bottom: 100px;
+  margin-top: 70px;
+}
+.c-row::after{
+  clear: both;
+}
+.cform{  
+  width: 542px;
+  height: 61px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 12px 32px;
+  background: rgba(39, 39, 39, 0.05);
+  border-radius: 33.5px;
+  color: rgb(24, 23, 23);
+  margin-top: 37px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  margin-left: 38px;
+}
+.cformbutton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  background: #39363D;
+  border-radius: 33.5px;
+  color: #fff;
+  margin-top: 37px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 45px;
+  line-height: 150%;
+}
+.cformbutton img{
+  margin-left: 14px;
+}
+
+
 * {
   margin: 0;
   border: 0;
