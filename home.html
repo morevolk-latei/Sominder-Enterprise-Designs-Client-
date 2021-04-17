@@ -9,10 +9,12 @@
     <link href="images/yellow.png" rel="icon">
   <link href="images/yellow.png" rel="apple-touch-icon">
   <link rel="preconnect" href="https://fonts.gstatic.com" />
+   <link rel="preconnect" href="https://unpkg.com" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Unna&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
@@ -103,7 +105,7 @@
             We will get your storyline in order, review and finalize your pitch deck, business plan, finanical
             projections, and prepare your start-up for fundraision.
           </p>
-          <button><img src="images/right-arrow-yellow.png" /></button>
+          <button onClick="window.location='contact.html';"><img src="images/right-arrow-yellow.png" /></button>
         </div>
       </div>
       <div class="service service2">
@@ -118,7 +120,7 @@
             After initial assessment, our team will come up with the best game plan for your start-up.
             We will advise you on finanical planning, business management, and strategy development.
           </p>
-          <button><img src="images/right-arrow-yellow.png" /></button>
+          <button onClick="window.location='contact.html';"><img src="images/right-arrow-yellow.png" /></button>
         </div>
       </div>
       <div class="service service3">
@@ -137,7 +139,7 @@
             Series
             A round.
           </p>
-          <button><img src="images/right-arrow-yellow.png" /></button>
+          <button onClick="window.location='contact.html';"><img src="images/right-arrow-yellow.png" /></button>
         </div>
       </div>
     </div>
@@ -145,20 +147,58 @@
 
   <div class="container4 ">
     <div class="wave wave-top"></div>
-    <div class="testimonial-box flexbox theme-padding">
-      <div class="left-box">
-        <p class="p1 bold"> Cat </p>
-        <p class="p2"> Founder of Therapy </p>
-        <p class="p3">
-          "Sominder has proved essential in starting and growing my business.
-          Using his business knowledge, we have received funding, grown the team,
-          and continue to go in the right direction for success."
-        </p>
+     <div class="testimonial-wrapper theme-padding theme-bg">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="testimonial-box flexbox swiper-slide">
+            <div class="left-box">
+              <p class="p1 bold"> Cat 1 </p>
+              <p class="p2"> Founder of Therapy </p>
+              <p class="p3">
+                "Sominder has proved essential in starting and growing my business.
+                Using his business knowledge, we have received funding, grown the team,
+                and continue to go in the right direction for success."
+              </p>
+            </div>
+            <div class="right-box tcenter">
+              <img src="images/double-quotes-yellow.png" class="double-quotes" alt="">
+              <img src="images/testimonial-img.png" class="testi-img" alt="">
+            </div>
+          </div>
+          <div class="testimonial-box flexbox swiper-slide">
+            <div class="left-box">
+              <p class="p1 bold"> Cat 2</p>
+              <p class="p2"> Founder of Therapy </p>
+              <p class="p3">
+                "Sominder has proved essential in starting and growing my business.
+                Using his business knowledge, we have received funding, grown the team,
+                and continue to go in the right direction for success."
+              </p>
+            </div>
+            <div class="right-box tcenter">
+              <img src="images/double-quotes-yellow.png" class="double-quotes" alt="">
+              <img src="images/testimonial-img.png" class="testi-img" alt="">
+            </div>
+          </div>
+          <div class="testimonial-box flexbox swiper-slide">
+            <div class="left-box">
+              <p class="p1 bold"> Cat 3</p>
+              <p class="p2"> Founder of Therapy </p>
+              <p class="p3">
+                "Sominder has proved essential in starting and growing my business.
+                Using his business knowledge, we have received funding, grown the team,
+                and continue to go in the right direction for success."
+              </p>
+            </div>
+            <div class="right-box tcenter">
+              <img src="images/double-quotes-yellow.png" class="double-quotes" alt="">
+              <img src="images/testimonial-img.png" class="testi-img" alt="">
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="right-box tcenter">
-        <img src="images/double-quotes-yellow.png" class="double-quotes" alt="">
-        <img src="images/testimonial-img.png" class="testi-img" alt="">
-      </div>
+       <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
     <div class="wave wave-bottom"></div>
   </div>
@@ -199,7 +239,35 @@
       </form>
     </div>
   </div>
-
+<section>
+    <div class="container7 theme-padding faq-section">
+    <div class="faq-wrapper">
+      <p class="section-title">Have any questions?</p>
+      <div class="faq-list" id="faqList">
+        <div class="faq-item faq1">
+          <p class="question flexbox vcenter">FAQ Title 1 <button class="faq-toggle-btn arrow"></button></p>
+          <p class="answer flexbox vcenter">Soluta earum quisquam saepe eveniet alias eaque suscipit.</p>
+        </div>
+        <div class="faq-item faq1">
+          <p class="question flexbox vcenter">FAQ Title 1 <button class="faq-toggle-btn arrow"></button></p>
+          <p class="answer flexbox vcenter">Soluta earum quisquam saepe eveniet alias eaque suscipit.</p>
+        </div>
+        <div class="faq-item faq1">
+          <p class="question flexbox vcenter">FAQ Title 1 <button class="faq-toggle-btn arrow"></button></p>
+          <p class="answer flexbox vcenter">Soluta earum quisquam saepe eveniet alias eaque suscipit.</p>
+        </div>
+        <div class="faq-item faq1">
+          <p class="question flexbox vcenter">FAQ Title 1 <button class="faq-toggle-btn arrow"></button></p>
+          <p class="answer flexbox vcenter">Soluta earum quisquam saepe eveniet alias eaque suscipit.</p>
+        </div>
+        <div class="faq-item faq1">
+          <p class="question flexbox vcenter">FAQ Title 1 <button class="faq-toggle-btn arrow"></button></p>
+          <p class="answer flexbox vcenter">Soluta earum quisquam saepe eveniet alias eaque suscipit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <footer>
 <div class="container6 theme-padding footer-section flexbox theme-bg">
@@ -234,6 +302,45 @@
     </div>
   </div>
 </footer>
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    (function (document, window) {
+      document.querySelectorAll('button.faq-toggle-btn')
+        .forEach(node => node.addEventListener('click', handleFAQClick, false));
+
+      function handleFAQClick(e) {
+        const parentNode = e.target.parentNode.parentNode;
+        if (parentNode && parentNode.classList.contains('active')) {
+          parentNode.classList.remove('active')
+        } else {
+          parentNode.classList.add('active')
+        }
+      }
+
+      const swiper = new Swiper('.swiper-container', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+        spaceBetween: 150,
+
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      });
+    })(document, window)
+  </script>
 </body>
 
 </html>
