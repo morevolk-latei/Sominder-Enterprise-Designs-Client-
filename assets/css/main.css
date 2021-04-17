@@ -399,7 +399,17 @@ nav ul li a {
   color: #FFFFFF;
   width: 450px;
 }
-
+.p4 {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+  /* or 178% */
+  font-feature-settings: 'liga'off;
+  color: #FFFFFF;
+  width: 650px;
+}
 .p2 {
   margin-bottom: 25px;
   margin-top: 16px;
@@ -579,8 +589,15 @@ p.service-desc {
 
 img.double-quotes {
   position: absolute;
-  top: -23px;
-  left: 135px;
+  top: -10px;
+  left: 90px;
+}
+img.testi-img {
+  width: 306px;
+  height: 330px;
+  border-radius: 12px;
+  margin-right: 25px;
+  margin-top: 20px;
 }
 
 /* section4 ends */
